@@ -7,7 +7,7 @@ const Navigation = () => {
       <div className="sidebar">
         <div className="id">
           <div className="idContent">
-            <img src="./media/billGates.jpg" alt="profil-pic" />
+            <img style={{width : "100px"}} src="./media/profile.jpg" alt="profil-pic" />
             <h3>Jimmy Demortreux</h3>
           </div>
         </div>
@@ -16,16 +16,17 @@ const Navigation = () => {
             <li>
               <NavLink
                 to="/"
-                className={(nav) => (nav.isActive ? "nav-acive" : "")}
+                className={(nav) => (nav.isActive ? "nav-active" : "")}
+                // className="nav-acive"
               >
                 <i className="fas fa-home"></i>
-                <span>accueil</span>
+                <span>Accueil</span>
               </NavLink>
             </li>
             <li>
               <NavLink
                 to="/competences"
-                className={(nav) => (nav.isActive ? "nav-acive" : "")}
+                className={(nav) => (nav.isActive ? "nav-active" : "")}
               >
                 <i className="fas fa-mountain"></i>
                 <span>Compétences</span>
@@ -34,7 +35,7 @@ const Navigation = () => {
             <li>
               <NavLink
                 to="/portfolio"
-                className={(nav) => (nav.isActive ? "nav-acive" : "")}
+                className={(nav) => (nav.isActive ? "nav-active" : "")}
               >
                 <i className="fas fa-images"></i>
                 <span>Portfolio</span>
@@ -43,10 +44,10 @@ const Navigation = () => {
             <li>
               <NavLink
                 to="/contact"
-                className={(nav) => (nav.isActive ? "nav-acive" : "")}
+                className={(nav) => (nav.isActive ? "nav-active" : "")}
               >
                 <i className="fas fa-address-book"></i>
-                <span>contact</span>
+                <span>Contact</span>
               </NavLink>
             </li>
           </ul>
