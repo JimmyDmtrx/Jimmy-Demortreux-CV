@@ -6,10 +6,10 @@ $font-3: 'Josefin Sans', sans-serif;
 
 
 $color-1: #f7cc86;
-$color-2: #ffba30;
-$color-3: #ffe8c8;
+$color-2: #f7cf7d;
+$color-3: #ffe6c2;
 $color-4: #e08945;
-$color-5: #f47c27;
+$color-5: #e58038;
 $white: #ddd;
 $black: #333;
 
@@ -33,6 +33,7 @@ $min-height: 95vh;
 body {
     margin: 1rem auto;
     max-width: 1200px;
+    max-height: 1000px;
     font-family: $font-1;
     color: $black;
 }

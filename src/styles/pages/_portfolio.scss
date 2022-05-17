@@ -88,7 +88,7 @@
     justify-content: space-around;
 
     .project {
-      background: $color-2;
+      background: $color-3;
       border-radius: $borderRadius;
       margin: 0.5rem 0 0 0;
       text-align: center;
@@ -125,6 +125,7 @@
       font-size: 1.65rem;
       @include verticalCenter;
       justify-content: left;
+      color: $black;
 
     }
 

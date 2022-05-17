@@ -15,7 +15,7 @@ export const portfolioData = [
   },
   {
     id: 2,
-    name: "Marvel",
+    name: "Marvel (in progress)",
     languages: ["javascript", "react", "node.js", "css"],
     languagesIcons: [
       "fab fa-js",
