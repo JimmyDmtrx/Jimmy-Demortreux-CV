@@ -26,8 +26,8 @@ export const portfolioData = [
     ],
     source: "https://github.com/JimmyDmtrx/Marvel-front",
     info: "Ici, j'ai souhaité réalisé un projet full stack en react et node.js.Je me sers de l'API MArvel, pour afficher les héros, et les comics, les deux pages ont une barre de recherche.On peut se connecter à la page et créer un compte, ce qui permet d'ajouter des héros en favori. Le back est dans mes repo Github",
-    picture: "./media/project2.JPG",
-    // lien:
+    picture: "./media/marvel.png",
+    lien: "https://marvel-repo.netlify.app/"
   },
   {
     id: 3,
